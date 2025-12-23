@@ -1,0 +1,23 @@
+name: Build Vivaldi Theme ZIP
+
+on:
+  push:
+    paths:
+      - 'settings.json'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create ZIP archive
+        run: zip catthode.zip settings.json
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: catthode-vivaldi-theme
+          path: catthode.zip

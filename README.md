@@ -19,6 +19,12 @@ Catthode is a high-contrast, retro-futuristic theme designed for prolonged brows
 
 ## 📦 Installation
 
+### Recommended
+
+1.  **Install directly** from the [Vivaldi Themes Store](https://themes.vivaldi.net/themes/wOkJy5aAJmd/).
+
+### Manual
+
 1.  **Download** the latest `catthode.zip` from the [Releases page](https://github.com/catthode/vivaldi/releases).
 
 2.  **Open Vivaldi** and go to **Settings** > **Themes**.

@@ -34,3 +34,9 @@ Catthode is a high-contrast, retro-futuristic theme designed for prolonged brows
 4.  Select the `catthode.zip` file.
 
 The theme should now be imported and active.
+
+## Local profile snapshot
+
+`extensions.json` records the Chrome Web Store extensions enabled in the active Vivaldi profile, including IDs and versions. `profile-settings.json` records the UI-only Vivaldi preferences captured from that profile: Catthode theme data, tab/address-bar visibility, toolbars, panels, saved layouts, and related display settings.
+
+The nix-darwin setup uses the extension IDs to seed Vivaldi's Chromium `External Extensions` directory and applies the UI snapshot only when Vivaldi is closed. Browsing data, bookmarks, cookies, passwords, sync credentials, and extension storage are intentionally excluded.
